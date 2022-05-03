@@ -1,0 +1,2 @@
+configurations.maybeCreate("default")
+artifacts.add("default", file('OfferToroSdk-v3.0.5.aar'))

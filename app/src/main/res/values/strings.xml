@@ -1,0 +1,81 @@
+<resources>
+    <string name="app_name" translatable="false">Pocket Change</string>
+    <string name="company_name">SimpleBytes</string>
+    <string name="version">Version 1.2.2</string>
+    <string name="branchKey">key_live_mlDsogT8mIn0RAobFL1Bffoizygf81Xx</string>
+
+    <string name="title_activity_main">MainActivity</string>
+    <string name="settings_file">account</string>
+
+    <string name="error_network_connection">Please check your internet connection</string>
+    <string name="error_network_login">Server error. Please check your internet connection or try again later</string>
+
+    <!--Navigation Drawer Toggle-->
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <!--Navigation Drawer Groups-->
+    <string name="navgroup_extra">Extra</string>
+
+    <!--Navigation Drawer Items-->
+    <string name="navtitle_account">Account</string>
+    <string name="navtitle_history">History</string>
+    <string name="navtitle_privacy">Privacy Policy</string>
+    <string name="navtitle_about">About</string>
+
+    <!--Navigation Header Items-->
+    <string name="navheader_welcome">Welcome! </string>
+    <string name="navheader_signedin">Signed in as: </string>
+    <string name="navheader_email">  </string>
+    <string name="navheader_notsignedin">Sign in to start making money now!</string>
+
+    <!--Signing In-->
+    <string name="login_hint_username">Username</string>
+    <string name="login_hint_password">Password</string>
+    <string name="login_button_text">Sign In </string>
+    <string name="login_restore">Forgot password? </string>
+    <string name="login_signup">Don\'t have an account? Sign up now! </string>
+    <string name="error_login_empty_field">Required fields are empty</string>
+    <string name="error_login_wrong_fields">Incorrect username or password</string>
+
+    <!--Signing Up-->
+    <string name="login_hint_email">Email </string>
+    <string name="signup_button_text">Sign Up </string>
+    <string name="signup_login">Already have an account?</string>
+    <string name="error_signup_wrong_format">Wrong format</string>
+    <string name="error_signup_too_short_username">Minimum 5 characters</string>
+    <string name="error_signup_too_short_password">Minimum 6 characters</string>
+    <string name="error_signup_taken_username">This username is not available</string>
+    <string name="error_signup_taken_email">User with this email already exists</string>
+
+    <!-- Recovery -->
+    <string name="recovery_instructions">Please enter the email address you signed up with</string>
+    <string name="recovery_instructions2">We will send you an email to reset your password</string>
+    <string name="recovery_continue">Continue</string>
+    <string name="recovery_link_sent">An email with a link to reset your password has been sent.</string>
+    <string name="recovery_no_user">No such user in database</string>
+
+    <!--Shared Preference Strings-->
+    <string name="settings_account_id">account_id</string>
+    <string name="settings_account_username">account_username</string>
+    <string name="settings_account_email">account_email</string>
+    <string name="settings_account_access_token">account_token</string>
+
+    <!--Activity Labels-->
+    <string name="label_activity_signup">Sign Up</string>
+    <string name="label_activity_login">Log In</string>
+
+    <!--App Intro Strings-->
+    <string name="slide_1_title">Complete Offers!</string>
+    <string name="slide_1_desc">Complete offers to earn points!</string>
+
+    <string name="slide_2_title">Share With Friends!</string>
+    <string name="slide_2_desc">Tell your friends about these amazing free items and earn points for inviting them!</string>
+
+    <string name="slide_3_title">Earn Rewards!</string>
+    <string name="slide_3_desc">Use your points to redeem great rewards like gift cards and PayPal money!</string>
+
+    <string name="slide_4_title">Start Now!</string>
+    <string name="slide_4_desc">You can earn points anytime, anywhere, so start now! Your free rewards are waiting for you!</string>
+
+</resources>

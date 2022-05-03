@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingTop="9dip"
+    android:paddingBottom="9dip">
+
+    <TextView
+        android:id="@+id/expandedListItem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:gravity="center_vertical"
+        android:paddingBottom="10dp"
+        android:paddingEnd="?android:attr/expandableListPreferredChildPaddingLeft"
+        android:paddingLeft="?android:attr/expandableListPreferredChildPaddingLeft"
+        android:paddingStart="?android:attr/expandableListPreferredChildPaddingLeft"
+        android:paddingTop="10dp" />
+
+    <TextView
+        android:id="@+id/expandedListPoints"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end|center_vertical"
+        android:drawablePadding="10dp"
+        android:gravity="center_vertical|end"
+        android:paddingBottom="10dp"
+        android:paddingEnd="10dp"
+        android:paddingTop="10dp" />
+
+</LinearLayout>

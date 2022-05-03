@@ -1,0 +1,12 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.simplebytes.pocketchange.activities.MainActivity">
+
+    <item
+        android:id="@+id/points"
+        android:icon="@null"
+        android:title="Points : Loading.."
+        android:gravity="center"
+        app:showAsAction="always" />
+</menu>
